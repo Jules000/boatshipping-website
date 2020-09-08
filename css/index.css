@@ -1,3 +1,4 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 :root {
     --lightblue: #F6F9FC;
     --red: #d64041;
@@ -133,7 +134,7 @@ a:hover {
 
 /* PAGE FOOTER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 
 section {
     padding: 60px 0;
