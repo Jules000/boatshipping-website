@@ -39,7 +39,7 @@ html {
 /* make the map responsive */
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 28.125%;
+    padding-bottom: 50%;
     position: relative;
     height: 0;
 }
