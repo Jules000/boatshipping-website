@@ -3,7 +3,7 @@
 */
 <!-- http://www.spacegun.co.uk -->
 
-var message = "function disabled";
+var message = "Click droit désactivé pour cette page";
 
 function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
 
@@ -13,7 +13,9 @@ document.onmousedown = rtclickcheck;
 
 
 
-
+/*
+***********Scroll utility***************
+*/
 const $body = $("body");
 const $header = $(".page-header");
 const scrollClass = "scroll";
