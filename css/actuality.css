@@ -1,34 +1,97 @@
-body, html {
+body,
+html {
     height: 100%;
 }
 
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/product-bg.jpg");
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/product-bg.jpg");
 
 
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
+
+
+/* Pricing section */
+.rounded-lg {
+    border-radius: 1rem !important
+}
+
+.text-small {
+    font-size: 0.9rem !important
+}
+
+.pricing {
+    color: #fff
+}
+
+.custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem
+}
+
+.text-uppercase {
+    letter-spacing: 0.2em
+}
+
+.btn-warning {
+    color: #fff
+}
+
+.btn-warning:hover {
+    color: #fff
+}
+
+/* Table */
+.card {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    border: 0px;
+    border-radius: 0.25rem;
+    box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08)
+}
+
+.card .card-body {
+    padding: 1.88rem 1.81rem
+}
+
+.table thead th {
+    border-bottom: none;
+    border-top: none;
+    vertical-align: middle
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+}
+
